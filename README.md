@@ -8,7 +8,7 @@ Steps to run this project:
 
 # How to use:
 
-Run `npm install -g typeorm`
+Run `npm install -g typeorm`\
 Run ```typeorm init --database postgres --express``` the database could be MySQL / MariaDB / Postgres / SQLite / Microsoft SQL Server / Oracle / sql.js / MongoDB
 - Run `npm install`
 - Run `npm install -s helmet cors jsonwebtoken bcryptjs class-validator ts-node-dev` for additional dependencies
@@ -19,26 +19,26 @@ Run ```typeorm init --database postgres --express``` the database could be MySQL
 - to start the project run `npm start` 
 - now the migration can be run, to insert the new admin user 
 `npm run migration:run`
-    - To access the login route, for example, you will call:
+- To access the login route, for example, you will call:
 `http://localhost:3000/auth/login`
 
 # Explanations
 
-helmet:
-    Helps us to secure our application by setting various HTTP headers
-cors:
+helmet:\
+     - Helps us to secure our application by setting various HTTP headers
+cors:\
      - Enable cross-origin Requests
-body-parser:
+body-parser:\
      - Parses the client’s request from json into javascript objects
-jsonwebtoken:
+jsonwebtoken:\
      - Will handle the jwt operations for us
-bcryptjs:
+bcryptjs:\
      - Help us to hash user passwords
-typeorm:
+typeorm:\
      - The ORM we are going to use to manipulate database
-reflect-metadata:
+reflect-metadata:\
      - allow some annotations features used with TypeORM
-class-validator:
+class-validator:\
      - A validation package that works really well with TypeORM
-ts-node-dev:
+ts-node-dev:\
      - Automatically restarts the server when we change any file
