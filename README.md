@@ -25,20 +25,20 @@ Steps to run this project:
 # Explanations
 
 helmet:\
- - Helps us to secure our application by setting various HTTP headers\
+Helps us to secure our application by setting various HTTP headers\
 cors:\
- - Enable cross-origin Requests\
+Enable cross-origin Requests\
 body-parser:\
- - Parses the client’s request from json into javascript objects\
+Parses the client’s request from json into javascript objects\
 jsonwebtoken:\
- - Will handle the jwt operations for us\
+Will handle the jwt operations for us\
 bcryptjs:\
- - Help us to hash user passwords\
+Help us to hash user passwords\
 typeorm:\
-- The ORM we are going to use to manipulate database\
+The ORM we are going to use to manipulate database\
 reflect-metadata:\
-- allow some annotations features used with TypeORM\
+allow some annotations features used with TypeORM\
 class-validator:\
- - A validation package that works really well with TypeORM\
+A validation package that works really well with TypeORM\
 ts-node-dev:\
- - Automatically restarts the server when we change any file\
+Automatically restarts the server when we change any file\
