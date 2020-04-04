@@ -8,8 +8,8 @@ Steps to run this project:
 
 # How to use:
 
-Run `npm install -g typeorm`\
-Run ```typeorm init --database postgres --express``` the database could be MySQL / MariaDB / Postgres / SQLite / Microsoft SQL Server / Oracle / sql.js / MongoDB
+- Run `npm install -g typeorm`\
+- Run ```typeorm init --database postgres --express``` the database could be MySQL / MariaDB / Postgres / SQLite / Microsoft SQL Server / Oracle / sql.js / MongoDB
 - Run `npm install`
 - Run `npm install -s helmet cors jsonwebtoken bcryptjs class-validator ts-node-dev` for additional dependencies
 - Run `npm install -s @types/bcryptjs @types/body-parser @types/cors @types/helmet @types/jsonwebtoken`
@@ -25,20 +25,20 @@ Run ```typeorm init --database postgres --express``` the database could be MySQL
 # Explanations
 
 helmet:\
-     - Helps us to secure our application by setting various HTTP headers
+ - Helps us to secure our application by setting various HTTP headers\
 cors:\
-     - Enable cross-origin Requests
+ - Enable cross-origin Requests\
 body-parser:\
-     - Parses the client’s request from json into javascript objects
+ - Parses the client’s request from json into javascript objects\
 jsonwebtoken:\
-     - Will handle the jwt operations for us
+ - Will handle the jwt operations for us\
 bcryptjs:\
-     - Help us to hash user passwords
+ - Help us to hash user passwords\
 typeorm:\
-     - The ORM we are going to use to manipulate database
+- The ORM we are going to use to manipulate database\
 reflect-metadata:\
-     - allow some annotations features used with TypeORM
+- allow some annotations features used with TypeORM\
 class-validator:\
-     - A validation package that works really well with TypeORM
+ - A validation package that works really well with TypeORM\
 ts-node-dev:\
-     - Automatically restarts the server when we change any file
+ - Automatically restarts the server when we change any file\
