@@ -8,7 +8,7 @@ Steps to run this project:
 
 # How to use:
 
-- Run `npm install -g typeorm`\
+- Run `npm install -g typeorm`
 - Run ```typeorm init --database postgres --express``` the database could be MySQL / MariaDB / Postgres / SQLite / Microsoft SQL Server / Oracle / sql.js / MongoDB
 - Run `npm install`
 - Run `npm install -s helmet cors jsonwebtoken bcryptjs class-validator ts-node-dev` for additional dependencies
@@ -20,7 +20,10 @@ Steps to run this project:
 - now the migration can be run, to insert the new admin user 
 `npm run migration:run`
 - To access the login route, for example, you will call:
-`http://localhost:3000/auth/login`
+`http://localhost:3000/auth/login` which return a token
+- call `http://localhost:3000/user` with `auth=token` in the headers to see all users
+- other endpoints are in routes/user.ts and are using methods in UserController.ts
+
 
 # Explanations
 
@@ -41,4 +44,4 @@ allow some annotations features used with TypeORM\
 class-validator:\
 A validation package that works really well with TypeORM\
 ts-node-dev:\
-Automatically restarts the server when we change any file\
+Automatically restarts the server when we change any file
