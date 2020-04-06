@@ -76,7 +76,7 @@ class AuthController {
     user.hashPassword();
     userRepository.save(user);
 
-    res.status(204).send("Your pssword was changed!");☺
+    res.status(204).send("Your pssword was changed!");
   };
 }
 
